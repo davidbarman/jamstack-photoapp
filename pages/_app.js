@@ -1,4 +1,5 @@
 // import '../styles/globals.css'
+import PropTypes from "prop-types";
 import { ChakraProvider } from "@chakra-ui/react";
 
 function MyApp({ Component, pageProps }) {
