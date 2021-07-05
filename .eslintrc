@@ -2,5 +2,9 @@
   "extends": ["next", "next/core-web-vitals"],
   "rules": {
     "prettier/prettier": ["error", { "endOfLine": "auto" }]
-  }
+  },
+  "react/prop-types": [
+    "enabled",
+    { "ignore": "ignore", "customValidators": "customValidator" }
+  ]
 }
