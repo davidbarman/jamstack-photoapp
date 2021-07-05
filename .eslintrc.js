@@ -20,6 +20,7 @@ module.exports = {
   },
   plugins: ["react", "@typescript-eslint"],
   rules: {
+    "react/prop-types": "off",
     "prettier/prettier": ["error", { endOfLine: "auto" }],
     "react/react-in-jsx-scope": "off",
     "react-hooks/exhaustive-deps": "off",
